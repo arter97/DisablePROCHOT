@@ -29,3 +29,5 @@ Entering ACPI S3 state(suspend) causes the BD PROCHOT MSR bit getting re-enabled
 You need to use some userspace tool for disabling BD PROCHOT for such cases.
 
 In case of Windows, use ThrottleStop.
+
+In case of macOS, try [**SimpleMSR**](https://github.com/arter97/SimpleMSR)
